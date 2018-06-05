@@ -16,7 +16,4 @@ for x in range(numDarts):
 	if dist < 1 or dist ==1:
 		hits = hits + 1
 		
-		
-	
-	
 print("pi estimate " + str(4*(hits/numDarts)))
